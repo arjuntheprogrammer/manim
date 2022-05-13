@@ -9,6 +9,13 @@ from .. import config, logger
 __all__ = []
 
 
+'''
+This code is loading all the plugins that are specified in the plugins requested
+list The code then iterates through each entry point and loads it into a variable
+called loaded plugin If loaded plugin is an instance of Module Type then we know
+that this plugin has been imported as a module so we can just import it with its
+name.
+'''
 plugins_requested: list = config["plugins"]
 if "" in plugins_requested:
     plugins_requested.remove("")
