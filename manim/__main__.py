@@ -17,6 +17,7 @@ from .constants import EPILOG
 
 def exit_early(ctx, param, value):
     if value:
+        console.print(f"exit_early sys exit")
         sys.exit()
 
 
