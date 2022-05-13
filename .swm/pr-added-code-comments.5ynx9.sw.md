@@ -4,7 +4,7 @@ name: "PR: Added Code Comments"
 file_version: 1.0.2
 app_version: 0.8.4-0
 file_blobs:
-  manim/plugins/import_plugins.py: aea7c4747f8890f2912e7c2defdad009d2121801
+  manim/plugins/import_plugins.py: 5e0947f11c4f4f28d6d363843cbfb9d7c8fbdb58
   manim/plugins/plugins_flags.py: 65d2de0cb41a8afe17857943a343cae16b4f07c8
 ---
 
@@ -25,10 +25,11 @@ this was created using stenography
 🟩 15     called loaded plugin If loaded plugin is an instance of Module Type then we know
 🟩 16     that this plugin has been imported as a module so we can just import it with its
 🟩 17     name.
-🟩 18     '''
-⬜ 19     plugins_requested: list = config["plugins"]
-⬜ 20     if "" in plugins_requested:
-⬜ 21         plugins_requested.remove("")
+🟩 18     New little change in the comment
+🟩 19     '''
+⬜ 20     plugins_requested: list = config["plugins"]
+⬜ 21     if "" in plugins_requested:
+⬜ 22         plugins_requested.remove("")
 ```
 
 <br/>
