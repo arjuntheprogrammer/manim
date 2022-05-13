@@ -4,7 +4,7 @@ name: "Main File: Exit Early"
 file_version: 1.0.2
 app_version: 0.8.4-0
 file_blobs:
-  manim/__main__.py: afe964a835f302175ed8dc6499a3da5bf061b308
+  manim/__main__.py: 9e68b4693d63822848514285c34a4b1f907c575d
 ---
 
 Defining the early exit function
@@ -13,12 +13,13 @@ Defining the early exit function
 ```python
 🟩 18     def exit_early(ctx, param, value):
 🟩 19         if value:
-🟩 20             sys.exit()
-🟩 21     
+🟩 20             console.print(f"exit_early sys exit")
+🟩 21             sys.exit()
 🟩 22     
-🟩 23     console.print(f"Added new print statement")
-🟩 24     console.print(f"Manim Community [green]v{__version__}[/green]\n")
-🟩 25     
+🟩 23     
+🟩 24     console.print(f"Added new print statement")
+🟩 25     console.print(f"Manim Community [green]v{__version__}[/green]\n")
+🟩 26     
 ```
 
 <br/>
