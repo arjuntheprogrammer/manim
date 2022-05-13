@@ -4,7 +4,7 @@ name: "Main File: Exit Early"
 file_version: 1.0.2
 app_version: 0.8.4-0
 file_blobs:
-  manim/__main__.py: 2272002ac36b54a64dc92afa94d5f2932ac16364
+  manim/__main__.py: afe964a835f302175ed8dc6499a3da5bf061b308
 ---
 
 Defining the early exit function
@@ -16,9 +16,14 @@ Defining the early exit function
 🟩 20             sys.exit()
 🟩 21     
 🟩 22     
-🟩 23     console.print(f"Manim Community [green]v{__version__}[/green]\n")
-🟩 24     
+🟩 23     console.print(f"Added new print statement")
+🟩 24     console.print(f"Manim Community [green]v{__version__}[/green]\n")
+🟩 25     
 ```
+
+<br/>
+
+New Update in the document for exit early.
 
 <br/>
 
